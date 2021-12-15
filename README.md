@@ -1,4 +1,2 @@
-# website
-This is the CloudPirates website repo!
-New repo?
-
+# Welcome to Cloud Pirates Website
+This is the CloudPirates website.
