@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+  <!-- Favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"> <!-- ACTION: create a file called favicon.ico and place it in the public folder of the site -->
+
+    <meta charset="UTF-8">
+  <!-- device recognition -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- browser bar title -->
+    <title>Welcome to Cloud Pirates</title> <!-- fill what you like here -->
+    <meta property="og:title" content="Cloud Pirates | Working in style"> <!-- fill what you like here -->
+    <meta property="og:description" content="A co-working/hackerspace geared towards cloud-native engineers, DevOps professional and an open, permanenent community space.">
+<meta property="og:url" content="https://cloudpirates.nl/"> <!-- fill the correct url of the site here -->
+<meta property="og:image" content="http://cloudpirates.nl/_images/Logo.png"> 
+
+  <!-- // Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Quicksand" rel="stylesheet"> <!-- modify with the font you like from google -->
+  <!-- // CSS files -->
+    <link rel="stylesheet" href="css/style.css"> <!-- ACTION: create a folder called "css" and add a file there called "style.css" -->
+  <!-- Scripts -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- // Icon Font Library -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header including menu -->
+  <header>
+    <div id="header" class="header">
+      <!-- Banner Logo -->
+        <div class="banner">
+          <img src="_images/Logo.png" name="CloudPiratesLogo"></img>
+        </div>
+      <div class="name" hidden> <!-- questa div esiste, ma e' nascosta: utile per google ma non visibile nel frontend -->
+        <!-- UNICO H1 DELLA PAGINE - NON USARE ALTRI H1 --> <h1>Cloud Pirates</h1> <!-- UNICO H1 DELLA PAGINE - NON USARE ALTRI H1 -->
+        <p>A cloudnative co-working & hackerspace</p>
+      </div>
+      <!-- Navigation buttons -->
+      <nav class="nav">
+        <a class="nav-btn" href="#about" title="About">About</a>
+        <a class="nav-btn" href="#cards" title="Mission">Mission</a>
+        <a class="nav-btn" href="#form" title="Contact">Contact</a>
+      </nav>
+  </header>
+
+  <!-- About Section (100% of the page?) -->
+  <main id="about">
+    <div class="grid-container">
+      <!-- Photo -->
+      <div class="img-container">
+        <img src="_images/placeholder.png" name="CloudPiratesLogo"></img>
+      </div>
+      <!-- Description -->
+      <div class="about-description">
+        <h2 class="about-description-title">Welcome to Cloud Pirates</h2>
+        <p class="about-description-txt">A co-working/hackerspace geared towards cloud-native engineers, DevOps professional and an open, permanenent community space.</p>
+        <!-- Resume Button -->
+        <a class="btn" href="#form" title="Sign Up">Sign up</a>
+      </div>
+    </div>
+  </main>
+  <!-- Projects Section (100% of the page?) -->
+  <section id="cards">
+    <div class="grid-container">
+      <!-- Card #1 -->
+      <div class="grid-item">
+        <div class="card">
+        <!-- <div class="card-img">
+          <img src="_images/placeholder.png" alt="Service#1" class="image">
+        </div> -->
+        <div class="card-number-container"><p class="card-number">1</p></div>
+        <div class="card-body">
+          <h3 class="card-title">Title</h3>
+          <p class="card-txt">Description</p>
+        </div>
+      </div>
+    </div>
+    <!-- Card #2 -->
+    <div class="grid-item">
+      <div class="card">
+        <!-- <div class="card-img">
+          <img src="_images/placeholder.png" alt="Service#1" class="image">
+        </div> -->
+        <div class="card-number-container"><p class="card-number">1</p></div>
+        <div class="card-body">
+          <h3 class="card-title">Title</h3>
+          <p class="card-txt">Description</p>
+        </div>
+      </div>
+    </div>
+    <!-- Card #3 -->
+    <div class="grid-item">
+      <div class="card">
+        <!-- <div class="card-img">
+          <img src="_images/placeholder.png" alt="Service#1" class="image">
+        </div> -->
+        <div class="card-number-container"><p class="card-number">1</p></div>
+        <div class="card-body">
+          <h3 class="card-title">Title</h3>
+          <p class="card-txt">Description</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Form section -->
+  <section id="form">
+    <div class="grid-container">
+      <h2 class="form-title">Collaborate freely</h2>
+      <p class="form-txt">We want to change the way we work and collaborate among cloud native technologists and communities. We are opening a new space in Amsterdam in September 2021, leave your email and we'll get in touch!</p>
+      <p class="form-txt">If you want to know more about the project, here's a <a class="link" href="https://1drv.ms/p/s!AnzLZGDv5fJ-p_pz1Waav6JrIDP6eQ" title="Pitch Deck">pitch deck</a> that explains the concepts.</p>
+      <p class="form-txt">Feel free to drop us an <a class="link" href="mailto:alessandro@lovelace.nl?subject=Information%20over%20Cloud%20Pirates&body=Howdy!" title="email us">email</a> or <a class="link" href="tel:+31643197789" title="call us">call us</a> (or find us on <a class="link" href="https://twitter.com/bongo" title="twitter">Twitter</a>  or <a class="link" href="https://www.linkedin.com/in/alessandrovozza" title="Linkedin">Linkedin</a>).</p>
+      <form class="form-container" method="post" action="mailto:info@fabriziomarras.com">
+        <ul>
+          <li><input class="form" name="email" rows="1" required placeholder="Email" onfocus="this.value=''"></li>
+          <li><input class="form" type="submit" value="Send email"></li>
+        </ul>
+      </form>
+    </div>
+  </section>
+
+  <!-- Back to Top button -->
+  <a class="top-btn" href="#header" title="Back to TOP"><i class="fas fa-chevron-up"></i><span class="sr-only"></span></a>
+
+  <!-- Social links -->
+  <div class="contact-info footer">
+    <a href="mailto:alessandro@lovelace.nl?subject=Information%20over%20Cloud%20Pirates&body=Howdy!" title="send me an email"><i class="fas fa-envelope-square" aria-hidden="true"></i><span class="sr-only">Email</span></a>
+    <a href="https://www.linkedin.com/in/alessandrovozza" target="_blank" title="visit my LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+    <a href="https://www.youtube.com/channel/UCqXIyvZDCXhcYIKGtuYzQsg" target="_blank" title="visit my Youtube channel"><i class="fab fa-twitter-square"aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+  </div>
+
+  <!-- SCRIPTS: -->
+  <script src="js/main.js"></script> <!-- ACTION: create a file called main.js and place it in the folder js in the public folder of the site -->
+</body>
+</html>
